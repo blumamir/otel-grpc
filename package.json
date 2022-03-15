@@ -1,0 +1,20 @@
+{
+  "name": "otel-grpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blumamir/otel-grpc.git",
+  "author": "Amir Blum <amir@aspecto.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.4",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.27.0",
+    "@opentelemetry/resources": "^1.0.1",
+    "@opentelemetry/sdk-trace-base": "^1.0.1",
+    "@opentelemetry/sdk-trace-node": "^1.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
